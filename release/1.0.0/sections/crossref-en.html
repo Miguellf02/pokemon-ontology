@@ -1,0 +1,2157 @@
+<h2 id="crossreference" class="list">Cross reference for Pokemon Ontology classes, properties and dataproperties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by Pokemon Ontology.
+<div id="classes">
+   <h3 id="classes-headline" class="list">Classes</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#Ability" title="https://w3id.org/doisr/pokemon#Ability">Ability</a>
+      </li>
+      <li>
+         <a href="#Evolution" title="https://w3id.org/doisr/pokemon#Evolution">Evolution</a>
+      </li>
+      <li>
+         <a href="#Game" title="https://w3id.org/doisr/pokemon#Game">Game</a>
+      </li>
+      <li>
+         <a href="#Generation" title="https://w3id.org/doisr/pokemon#Generation">Generation</a>
+      </li>
+      <li>
+         <a href="#LegendaryPokemon" title="https://w3id.org/doisr/pokemon#LegendaryPokemon">Legendary Pokemon</a>
+      </li>
+      <li>
+         <a href="#Move" title="https://w3id.org/doisr/pokemon#Move">Move</a>
+      </li>
+      <li>
+         <a href="#MoveCategory" title="https://w3id.org/doisr/pokemon#MoveCategory">Move Category</a>
+      </li>
+      <li>
+         <a href="#Pokemon" title="https://w3id.org/doisr/pokemon#Pokemon">Pokemon</a>
+      </li>
+      <li>
+         <a href="#PokemonType" title="https://w3id.org/doisr/pokemon#PokemonType">Pokemon Type</a>
+      </li>
+      <li>
+         <a href="#Region" title="https://w3id.org/doisr/pokemon#Region">Region</a>
+      </li>
+      <li>
+         <a href="#Trainer" title="https://w3id.org/doisr/pokemon#Trainer">Trainer</a>
+      </li>
+   </ul>
+   <div class="entity" id="Ability">
+      <h3>Ability<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#Ability</p>
+      <div class="comment">
+         <span class="markdown">A passive ability that a Pokemon may have.</span>
+      </div>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#abilityDescription"
+               title="https://w3id.org/doisr/pokemon#abilityDescription">ability description</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#isAbilityOf" title="https://w3id.org/doisr/pokemon#isAbilityOf">is ability of</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasAbility" title="https://w3id.org/doisr/pokemon#hasAbility">has ability</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#Evolution" title="https://w3id.org/doisr/pokemon#Evolution">Evolution</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Game" title="https://w3id.org/doisr/pokemon#Game">Game</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Generation" title="https://w3id.org/doisr/pokemon#Generation">Generation</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Move" title="https://w3id.org/doisr/pokemon#Move">Move</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#MoveCategory" title="https://w3id.org/doisr/pokemon#MoveCategory">Move Category</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Pokemon" title="https://w3id.org/doisr/pokemon#Pokemon">Pokemon</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#PokemonType" title="https://w3id.org/doisr/pokemon#PokemonType">Pokemon Type</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Region" title="https://w3id.org/doisr/pokemon#Region">Region</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Trainer" title="https://w3id.org/doisr/pokemon#Trainer">Trainer</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Evolution">
+      <h3>Evolution<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#Evolution</p>
+      <div class="comment">
+         <span class="markdown">Reified n-ary relation describing an evolution of a Pokemon, including its condition (e.g. level).</span>
+      </div>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#evolutionCondition"
+               title="https://w3id.org/doisr/pokemon#evolutionCondition">evolution condition</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#evolutionLevel" title="https://w3id.org/doisr/pokemon#evolutionLevel">evolution level</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#evolutionResultsIn"
+               title="https://w3id.org/doisr/pokemon#evolutionResultsIn">evolution results in</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasEvolution" title="https://w3id.org/doisr/pokemon#hasEvolution">has evolution</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#Ability" title="https://w3id.org/doisr/pokemon#Ability">Ability</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Game" title="https://w3id.org/doisr/pokemon#Game">Game</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Generation" title="https://w3id.org/doisr/pokemon#Generation">Generation</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Move" title="https://w3id.org/doisr/pokemon#Move">Move</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#MoveCategory" title="https://w3id.org/doisr/pokemon#MoveCategory">Move Category</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Pokemon" title="https://w3id.org/doisr/pokemon#Pokemon">Pokemon</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#PokemonType" title="https://w3id.org/doisr/pokemon#PokemonType">Pokemon Type</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Region" title="https://w3id.org/doisr/pokemon#Region">Region</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Trainer" title="https://w3id.org/doisr/pokemon#Trainer">Trainer</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Game">
+      <h3>Game<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#Game</p>
+      <div class="comment">
+         <span class="markdown">A video game of the Pokemon franchise in which a Pokemon appears.</span>
+      </div>
+      <dl class="description">
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#appearsInGame" title="https://w3id.org/doisr/pokemon#appearsInGame">appears in game</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#Ability" title="https://w3id.org/doisr/pokemon#Ability">Ability</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Evolution" title="https://w3id.org/doisr/pokemon#Evolution">Evolution</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Generation" title="https://w3id.org/doisr/pokemon#Generation">Generation</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Move" title="https://w3id.org/doisr/pokemon#Move">Move</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#MoveCategory" title="https://w3id.org/doisr/pokemon#MoveCategory">Move Category</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Pokemon" title="https://w3id.org/doisr/pokemon#Pokemon">Pokemon</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#PokemonType" title="https://w3id.org/doisr/pokemon#PokemonType">Pokemon Type</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Region" title="https://w3id.org/doisr/pokemon#Region">Region</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Trainer" title="https://w3id.org/doisr/pokemon#Trainer">Trainer</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Generation">
+      <h3>Generation<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#Generation</p>
+      <div class="comment">
+         <span class="markdown">A generation of the Pokemon franchise in which species and moves are introduced.</span>
+      </div>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#generationHasRegion"
+               title="https://w3id.org/doisr/pokemon#generationHasRegion">generation has region</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#generationNumber" title="https://w3id.org/doisr/pokemon#generationNumber">generation number</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#introducedInGeneration"
+               title="https://w3id.org/doisr/pokemon#introducedInGeneration">introduced in generation</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#Ability" title="https://w3id.org/doisr/pokemon#Ability">Ability</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Evolution" title="https://w3id.org/doisr/pokemon#Evolution">Evolution</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Game" title="https://w3id.org/doisr/pokemon#Game">Game</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Move" title="https://w3id.org/doisr/pokemon#Move">Move</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#MoveCategory" title="https://w3id.org/doisr/pokemon#MoveCategory">Move Category</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Pokemon" title="https://w3id.org/doisr/pokemon#Pokemon">Pokemon</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#PokemonType" title="https://w3id.org/doisr/pokemon#PokemonType">Pokemon Type</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Region" title="https://w3id.org/doisr/pokemon#Region">Region</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Trainer" title="https://w3id.org/doisr/pokemon#Trainer">Trainer</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="LegendaryPokemon">
+      <h3>Legendary Pokemon<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#LegendaryPokemon</p>
+      <div class="comment">
+         <span class="markdown">A Pokemon flagged as legendary.</span>
+      </div>
+      <dl class="description">
+         <dt>is equivalent to</dt>
+         <dd>
+            <a href="#Pokemon" title="https://w3id.org/doisr/pokemon#Pokemon">Pokemon</a>
+            <sup class="type-c" title="class">c</sup> 
+            <span class="logic">and</span> (<a href="#isLegendary" title="https://w3id.org/doisr/pokemon#isLegendary">is legendary</a>
+            <sup class="type-dp" title="data property">dp</sup> 
+            <span class="logic">value</span> true)</dd>
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#Pokemon" title="https://w3id.org/doisr/pokemon#Pokemon">Pokemon</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Move">
+      <h3>Move<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#Move</p>
+      <div class="comment">
+         <span class="markdown">A move (attack or action) that a Pokemon can learn and use.</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd/>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#accuracy" title="https://w3id.org/doisr/pokemon#accuracy">accuracy</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#isLearnedBy" title="https://w3id.org/doisr/pokemon#isLearnedBy">is learned by</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#moveHasCategory" title="https://w3id.org/doisr/pokemon#moveHasCategory">move has category</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#moveHasType" title="https://w3id.org/doisr/pokemon#moveHasType">move has type</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#power" title="https://w3id.org/doisr/pokemon#power">power</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#powerPoints" title="https://w3id.org/doisr/pokemon#powerPoints">power points</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#isTypeOfMove" title="https://w3id.org/doisr/pokemon#isTypeOfMove">is type of move</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#learnsMove" title="https://w3id.org/doisr/pokemon#learnsMove">learns move</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#Ability" title="https://w3id.org/doisr/pokemon#Ability">Ability</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Evolution" title="https://w3id.org/doisr/pokemon#Evolution">Evolution</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Game" title="https://w3id.org/doisr/pokemon#Game">Game</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Generation" title="https://w3id.org/doisr/pokemon#Generation">Generation</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#MoveCategory" title="https://w3id.org/doisr/pokemon#MoveCategory">Move Category</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Pokemon" title="https://w3id.org/doisr/pokemon#Pokemon">Pokemon</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#PokemonType" title="https://w3id.org/doisr/pokemon#PokemonType">Pokemon Type</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Region" title="https://w3id.org/doisr/pokemon#Region">Region</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Trainer" title="https://w3id.org/doisr/pokemon#Trainer">Trainer</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="MoveCategory">
+      <h3>Move Category<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#MoveCategory</p>
+      <div class="comment">
+         <span class="markdown">The damage category of a move: Physical, Special or Status.</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/2004/02/skos/core#Concept">concept</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#moveHasCategory" title="https://w3id.org/doisr/pokemon#moveHasCategory">move has category</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>has members</dt>
+         <dd>
+            <a href="#Physical" title="https://w3id.org/doisr/pokemon#Physical">Physical Physical</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#Special" title="https://w3id.org/doisr/pokemon#Special">Special Special</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#Status" title="https://w3id.org/doisr/pokemon#Status">Status Status</a>
+            <sup class="type-ni" title="named individual">ni</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#Ability" title="https://w3id.org/doisr/pokemon#Ability">Ability</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Evolution" title="https://w3id.org/doisr/pokemon#Evolution">Evolution</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Game" title="https://w3id.org/doisr/pokemon#Game">Game</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Generation" title="https://w3id.org/doisr/pokemon#Generation">Generation</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Move" title="https://w3id.org/doisr/pokemon#Move">Move</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Pokemon" title="https://w3id.org/doisr/pokemon#Pokemon">Pokemon</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#PokemonType" title="https://w3id.org/doisr/pokemon#PokemonType">Pokemon Type</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Region" title="https://w3id.org/doisr/pokemon#Region">Region</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Trainer" title="https://w3id.org/doisr/pokemon#Trainer">Trainer</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Pokemon">
+      <h3>Pokemon<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#Pokemon</p>
+      <div class="comment">
+         <span class="markdown">A Pokemon species characterised by its types, base stats, abilities and evolutions.</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd/>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#LegendaryPokemon" title="https://w3id.org/doisr/pokemon#LegendaryPokemon">Legendary Pokemon</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#appearsInGame" title="https://w3id.org/doisr/pokemon#appearsInGame">appears in game</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#attack" title="https://w3id.org/doisr/pokemon#attack">attack</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#baseStatTotal" title="https://w3id.org/doisr/pokemon#baseStatTotal">base stat total</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#classification" title="https://w3id.org/doisr/pokemon#classification">classification</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#defense" title="https://w3id.org/doisr/pokemon#defense">defense</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#evolvesFrom" title="https://w3id.org/doisr/pokemon#evolvesFrom">evolves from</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#evolvesInto" title="https://w3id.org/doisr/pokemon#evolvesInto">evolves into</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasAbility" title="https://w3id.org/doisr/pokemon#hasAbility">has ability</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasEvolution" title="https://w3id.org/doisr/pokemon#hasEvolution">has evolution</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasPrimaryType" title="https://w3id.org/doisr/pokemon#hasPrimaryType">has primary type</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasSecondaryType" title="https://w3id.org/doisr/pokemon#hasSecondaryType">has secondary type</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasType" title="https://w3id.org/doisr/pokemon#hasType">has type</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#heightM" title="https://w3id.org/doisr/pokemon#heightM">height (m)</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#hp" title="https://w3id.org/doisr/pokemon#hp">hp</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#isLegendary" title="https://w3id.org/doisr/pokemon#isLegendary">is legendary</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#isOwnedByTrainer" title="https://w3id.org/doisr/pokemon#isOwnedByTrainer">is owned by trainer</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#learnsMove" title="https://w3id.org/doisr/pokemon#learnsMove">learns move</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#pokedexNumber" title="https://w3id.org/doisr/pokemon#pokedexNumber">pokedex number</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#specialAttack" title="https://w3id.org/doisr/pokemon#specialAttack">special attack</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#specialDefense" title="https://w3id.org/doisr/pokemon#specialDefense">special defense</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#speed" title="https://w3id.org/doisr/pokemon#speed">speed</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#weightKg" title="https://w3id.org/doisr/pokemon#weightKg">weight (kg)</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#evolutionResultsIn"
+               title="https://w3id.org/doisr/pokemon#evolutionResultsIn">evolution results in</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#evolvesFrom" title="https://w3id.org/doisr/pokemon#evolvesFrom">evolves from</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#evolvesInto" title="https://w3id.org/doisr/pokemon#evolvesInto">evolves into</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#isAbilityOf" title="https://w3id.org/doisr/pokemon#isAbilityOf">is ability of</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#isLearnedBy" title="https://w3id.org/doisr/pokemon#isLearnedBy">is learned by</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#ownsPokemon" title="https://w3id.org/doisr/pokemon#ownsPokemon">owns pokemon</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#Ability" title="https://w3id.org/doisr/pokemon#Ability">Ability</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Evolution" title="https://w3id.org/doisr/pokemon#Evolution">Evolution</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Game" title="https://w3id.org/doisr/pokemon#Game">Game</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Generation" title="https://w3id.org/doisr/pokemon#Generation">Generation</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Move" title="https://w3id.org/doisr/pokemon#Move">Move</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#MoveCategory" title="https://w3id.org/doisr/pokemon#MoveCategory">Move Category</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#PokemonType" title="https://w3id.org/doisr/pokemon#PokemonType">Pokemon Type</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Region" title="https://w3id.org/doisr/pokemon#Region">Region</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Trainer" title="https://w3id.org/doisr/pokemon#Trainer">Trainer</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PokemonType">
+      <h3>Pokemon Type<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#PokemonType</p>
+      <div class="comment">
+         <span class="markdown">An elemental type of a Pokemon or a move (e.g. Fire, Water).</span>
+      </div>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <span class="dotted" title="http://www.w3.org/2004/02/skos/core#Concept">concept</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#isTypeOfMove" title="https://w3id.org/doisr/pokemon#isTypeOfMove">is type of move</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#hasPrimaryType" title="https://w3id.org/doisr/pokemon#hasPrimaryType">has primary type</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasSecondaryType" title="https://w3id.org/doisr/pokemon#hasSecondaryType">has secondary type</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasType" title="https://w3id.org/doisr/pokemon#hasType">has type</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#moveHasType" title="https://w3id.org/doisr/pokemon#moveHasType">move has type</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>has members</dt>
+         <dd>
+            <a href="#Bug" title="https://w3id.org/doisr/pokemon#Bug">Bug Bug</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#Dark" title="https://w3id.org/doisr/pokemon#Dark">Dark Dark</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#Dragon" title="https://w3id.org/doisr/pokemon#Dragon">Dragon Dragon</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#Electric" title="https://w3id.org/doisr/pokemon#Electric">Electric Electric</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#Fairy" title="https://w3id.org/doisr/pokemon#Fairy">Fairy Fairy</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#Fighting" title="https://w3id.org/doisr/pokemon#Fighting">Fighting Fighting</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#Fire" title="https://w3id.org/doisr/pokemon#Fire">Fire Fire</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#Flying" title="https://w3id.org/doisr/pokemon#Flying">Flying Flying</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#Ghost" title="https://w3id.org/doisr/pokemon#Ghost">Ghost Ghost</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#Grass" title="https://w3id.org/doisr/pokemon#Grass">Grass Grass</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#Ground" title="https://w3id.org/doisr/pokemon#Ground">Ground Ground</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#Ice" title="https://w3id.org/doisr/pokemon#Ice">Ice Ice</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#Normal" title="https://w3id.org/doisr/pokemon#Normal">Normal Normal</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#Poison" title="https://w3id.org/doisr/pokemon#Poison">Poison Poison</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#Psychic" title="https://w3id.org/doisr/pokemon#Psychic">Psychic Psychic</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#Rock" title="https://w3id.org/doisr/pokemon#Rock">Rock Rock</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#Steel" title="https://w3id.org/doisr/pokemon#Steel">Steel Steel</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#Water" title="https://w3id.org/doisr/pokemon#Water">Water Water</a>
+            <sup class="type-ni" title="named individual">ni</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#Ability" title="https://w3id.org/doisr/pokemon#Ability">Ability</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Evolution" title="https://w3id.org/doisr/pokemon#Evolution">Evolution</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Game" title="https://w3id.org/doisr/pokemon#Game">Game</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Generation" title="https://w3id.org/doisr/pokemon#Generation">Generation</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Move" title="https://w3id.org/doisr/pokemon#Move">Move</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#MoveCategory" title="https://w3id.org/doisr/pokemon#MoveCategory">Move Category</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Pokemon" title="https://w3id.org/doisr/pokemon#Pokemon">Pokemon</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Region" title="https://w3id.org/doisr/pokemon#Region">Region</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Trainer" title="https://w3id.org/doisr/pokemon#Trainer">Trainer</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Region">
+      <h3>Region<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#Region</p>
+      <div class="comment">
+         <span class="markdown">A geographic region of the Pokemon world associated with a generation.</span>
+      </div>
+      <dl class="description">
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#generationHasRegion"
+               title="https://w3id.org/doisr/pokemon#generationHasRegion">generation has region</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#Ability" title="https://w3id.org/doisr/pokemon#Ability">Ability</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Evolution" title="https://w3id.org/doisr/pokemon#Evolution">Evolution</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Game" title="https://w3id.org/doisr/pokemon#Game">Game</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Generation" title="https://w3id.org/doisr/pokemon#Generation">Generation</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Move" title="https://w3id.org/doisr/pokemon#Move">Move</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#MoveCategory" title="https://w3id.org/doisr/pokemon#MoveCategory">Move Category</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Pokemon" title="https://w3id.org/doisr/pokemon#Pokemon">Pokemon</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#PokemonType" title="https://w3id.org/doisr/pokemon#PokemonType">Pokemon Type</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Trainer" title="https://w3id.org/doisr/pokemon#Trainer">Trainer</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Trainer">
+      <h3>Trainer<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#Trainer</p>
+      <div class="comment">
+         <span class="markdown">A person who catches and owns Pokemon.</span>
+      </div>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#ownsPokemon" title="https://w3id.org/doisr/pokemon#ownsPokemon">owns pokemon</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is in range of</dt>
+         <dd>
+            <a href="#isOwnedByTrainer" title="https://w3id.org/doisr/pokemon#isOwnedByTrainer">is owned by trainer</a>
+            <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>is disjoint with</dt>
+         <dd>
+            <a href="#Ability" title="https://w3id.org/doisr/pokemon#Ability">Ability</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Evolution" title="https://w3id.org/doisr/pokemon#Evolution">Evolution</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Game" title="https://w3id.org/doisr/pokemon#Game">Game</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Generation" title="https://w3id.org/doisr/pokemon#Generation">Generation</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Move" title="https://w3id.org/doisr/pokemon#Move">Move</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#MoveCategory" title="https://w3id.org/doisr/pokemon#MoveCategory">Move Category</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Pokemon" title="https://w3id.org/doisr/pokemon#Pokemon">Pokemon</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#PokemonType" title="https://w3id.org/doisr/pokemon#PokemonType">Pokemon Type</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#Region" title="https://w3id.org/doisr/pokemon#Region">Region</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+</div><div id="objectproperties">
+   <h3 id="properties" class="list">Object Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#appearsInGame" title="https://w3id.org/doisr/pokemon#appearsInGame">appears in game</a>
+      </li>
+      <li>
+         <a href="#evolutionResultsIn"
+            title="https://w3id.org/doisr/pokemon#evolutionResultsIn">evolution results in</a>
+      </li>
+      <li>
+         <a href="#evolvesFrom" title="https://w3id.org/doisr/pokemon#evolvesFrom">evolves from</a>
+      </li>
+      <li>
+         <a href="#evolvesInto" title="https://w3id.org/doisr/pokemon#evolvesInto">evolves into</a>
+      </li>
+      <li>
+         <a href="#generationHasRegion"
+            title="https://w3id.org/doisr/pokemon#generationHasRegion">generation has region</a>
+      </li>
+      <li>
+         <a href="#hasAbility" title="https://w3id.org/doisr/pokemon#hasAbility">has ability</a>
+      </li>
+      <li>
+         <a href="#hasEvolution" title="https://w3id.org/doisr/pokemon#hasEvolution">has evolution</a>
+      </li>
+      <li>
+         <a href="#hasPrimaryType" title="https://w3id.org/doisr/pokemon#hasPrimaryType">has primary type</a>
+      </li>
+      <li>
+         <a href="#hasSecondaryType" title="https://w3id.org/doisr/pokemon#hasSecondaryType">has secondary type</a>
+      </li>
+      <li>
+         <a href="#hasType" title="https://w3id.org/doisr/pokemon#hasType">has type</a>
+      </li>
+      <li>
+         <a href="#introducedInGeneration"
+            title="https://w3id.org/doisr/pokemon#introducedInGeneration">introduced in generation</a>
+      </li>
+      <li>
+         <a href="#isAbilityOf" title="https://w3id.org/doisr/pokemon#isAbilityOf">is ability of</a>
+      </li>
+      <li>
+         <a href="#isLearnedBy" title="https://w3id.org/doisr/pokemon#isLearnedBy">is learned by</a>
+      </li>
+      <li>
+         <a href="#isOwnedByTrainer" title="https://w3id.org/doisr/pokemon#isOwnedByTrainer">is owned by trainer</a>
+      </li>
+      <li>
+         <a href="#isTypeOfMove" title="https://w3id.org/doisr/pokemon#isTypeOfMove">is type of move</a>
+      </li>
+      <li>
+         <a href="#learnsMove" title="https://w3id.org/doisr/pokemon#learnsMove">learns move</a>
+      </li>
+      <li>
+         <a href="#moveHasCategory" title="https://w3id.org/doisr/pokemon#moveHasCategory">move has category</a>
+      </li>
+      <li>
+         <a href="#moveHasType" title="https://w3id.org/doisr/pokemon#moveHasType">move has type</a>
+      </li>
+      <li>
+         <a href="#ownsPokemon" title="https://w3id.org/doisr/pokemon#ownsPokemon">owns pokemon</a>
+      </li>
+   </ul>
+   <div class="entity" id="appearsInGame">
+      <h3>appears in game<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#appearsInGame</p>
+      <div class="comment">
+         <span class="markdown">Relates a Pokemon to a game in which it appears.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Pokemon" title="https://w3id.org/doisr/pokemon#Pokemon">Pokemon</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Game" title="https://w3id.org/doisr/pokemon#Game">Game</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="evolutionResultsIn">
+      <h3>evolution results in<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#evolutionResultsIn</p>
+      <div class="comment">
+         <span class="markdown">Relates a reified evolution to the resulting Pokemon.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Evolution" title="https://w3id.org/doisr/pokemon#Evolution">Evolution</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Pokemon" title="https://w3id.org/doisr/pokemon#Pokemon">Pokemon</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="evolvesFrom">
+      <h3>evolves from<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#evolvesFrom</p>
+      <div class="comment">
+         <span class="markdown">Relates a Pokemon to the Pokemon it evolves from (inverse of evolves into).</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Pokemon" title="https://w3id.org/doisr/pokemon#Pokemon">Pokemon</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Pokemon" title="https://w3id.org/doisr/pokemon#Pokemon">Pokemon</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#evolvesInto" title="https://w3id.org/doisr/pokemon#evolvesInto">evolves into</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="evolvesInto">
+      <h3>evolves into<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#evolvesInto</p>
+      <div class="comment">
+         <span class="markdown">Relates a Pokemon to the Pokemon it evolves into.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Pokemon" title="https://w3id.org/doisr/pokemon#Pokemon">Pokemon</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Pokemon" title="https://w3id.org/doisr/pokemon#Pokemon">Pokemon</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#evolvesFrom" title="https://w3id.org/doisr/pokemon#evolvesFrom">evolves from</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="generationHasRegion">
+      <h3>generation has region<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#generationHasRegion</p>
+      <div class="comment">
+         <span class="markdown">Relates a generation to its associated region.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Generation" title="https://w3id.org/doisr/pokemon#Generation">Generation</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Region" title="https://w3id.org/doisr/pokemon#Region">Region</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasAbility">
+      <h3>has ability<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#hasAbility</p>
+      <div class="comment">
+         <span class="markdown">Relates a Pokemon to one of its abilities.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Pokemon" title="https://w3id.org/doisr/pokemon#Pokemon">Pokemon</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Ability" title="https://w3id.org/doisr/pokemon#Ability">Ability</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#isAbilityOf" title="https://w3id.org/doisr/pokemon#isAbilityOf">is ability of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasEvolution">
+      <h3>has evolution<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#hasEvolution</p>
+      <div class="comment">
+         <span class="markdown">Relates a Pokemon to a reified evolution describing its condition.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Pokemon" title="https://w3id.org/doisr/pokemon#Pokemon">Pokemon</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Evolution" title="https://w3id.org/doisr/pokemon#Evolution">Evolution</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasPrimaryType">
+      <h3>has primary type<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#hasPrimaryType</p>
+      <div class="comment">
+         <span class="markdown">Relates a Pokemon to its primary type.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#hasType" title="https://w3id.org/doisr/pokemon#hasType">has type</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Pokemon" title="https://w3id.org/doisr/pokemon#Pokemon">Pokemon</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#PokemonType" title="https://w3id.org/doisr/pokemon#PokemonType">Pokemon Type</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasSecondaryType">
+      <h3>has secondary type<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#hasSecondaryType</p>
+      <div class="comment">
+         <span class="markdown">Relates a Pokemon to its optional secondary type.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has super-properties</dt>
+            <dd>
+               <a href="#hasType" title="https://w3id.org/doisr/pokemon#hasType">has type</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Pokemon" title="https://w3id.org/doisr/pokemon#Pokemon">Pokemon</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#PokemonType" title="https://w3id.org/doisr/pokemon#PokemonType">Pokemon Type</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hasType">
+      <h3>has type<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#hasType</p>
+      <div class="comment">
+         <span class="markdown">Relates a Pokemon to any of its types (primary or secondary).</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has sub-properties</dt>
+            <dd>
+               <a href="#hasPrimaryType" title="https://w3id.org/doisr/pokemon#hasPrimaryType">has primary type</a>
+               <sup class="type-op" title="object property">op</sup>, <a href="#hasSecondaryType" title="https://w3id.org/doisr/pokemon#hasSecondaryType">has secondary type</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Pokemon" title="https://w3id.org/doisr/pokemon#Pokemon">Pokemon</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#PokemonType" title="https://w3id.org/doisr/pokemon#PokemonType">Pokemon Type</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="introducedInGeneration">
+      <h3>introduced in generation<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#introducedInGeneration</p>
+      <div class="comment">
+         <span class="markdown">Relates a Pokemon or a move to the generation in which it was introduced.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Move" title="https://w3id.org/doisr/pokemon#Move">Move</a>
+               <sup class="type-c" title="class">c</sup> 
+               <span class="logic">or</span> 
+               <a href="#Pokemon" title="https://w3id.org/doisr/pokemon#Pokemon">Pokemon</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Generation" title="https://w3id.org/doisr/pokemon#Generation">Generation</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="isAbilityOf">
+      <h3>is ability of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#isAbilityOf</p>
+      <div class="comment">
+         <span class="markdown">Relates an ability to the Pokemon that has it (inverse of has ability).</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Ability" title="https://w3id.org/doisr/pokemon#Ability">Ability</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Pokemon" title="https://w3id.org/doisr/pokemon#Pokemon">Pokemon</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#hasAbility" title="https://w3id.org/doisr/pokemon#hasAbility">has ability</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="isLearnedBy">
+      <h3>is learned by<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#isLearnedBy</p>
+      <div class="comment">
+         <span class="markdown">Relates a move to the Pokemon that can learn it (inverse of learns move).</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Move" title="https://w3id.org/doisr/pokemon#Move">Move</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Pokemon" title="https://w3id.org/doisr/pokemon#Pokemon">Pokemon</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#learnsMove" title="https://w3id.org/doisr/pokemon#learnsMove">learns move</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="isOwnedByTrainer">
+      <h3>is owned by trainer<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#isOwnedByTrainer</p>
+      <div class="comment">
+         <span class="markdown">Relates a Pokemon to its trainer (inverse of owns pokemon).</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Pokemon" title="https://w3id.org/doisr/pokemon#Pokemon">Pokemon</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Trainer" title="https://w3id.org/doisr/pokemon#Trainer">Trainer</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#ownsPokemon" title="https://w3id.org/doisr/pokemon#ownsPokemon">owns pokemon</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="isTypeOfMove">
+      <h3>is type of move<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#isTypeOfMove</p>
+      <div class="comment">
+         <span class="markdown">Relates a type to the moves of that type (inverse of move has type).</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#PokemonType" title="https://w3id.org/doisr/pokemon#PokemonType">Pokemon Type</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Move" title="https://w3id.org/doisr/pokemon#Move">Move</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#moveHasType" title="https://w3id.org/doisr/pokemon#moveHasType">move has type</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="learnsMove">
+      <h3>learns move<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#learnsMove</p>
+      <div class="comment">
+         <span class="markdown">Relates a Pokemon to a move it can learn.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Pokemon" title="https://w3id.org/doisr/pokemon#Pokemon">Pokemon</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Move" title="https://w3id.org/doisr/pokemon#Move">Move</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#isLearnedBy" title="https://w3id.org/doisr/pokemon#isLearnedBy">is learned by</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="moveHasCategory">
+      <h3>move has category<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#moveHasCategory</p>
+      <div class="comment">
+         <span class="markdown">Relates a move to its damage category.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Move" title="https://w3id.org/doisr/pokemon#Move">Move</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#MoveCategory" title="https://w3id.org/doisr/pokemon#MoveCategory">Move Category</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="moveHasType">
+      <h3>move has type<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#moveHasType</p>
+      <div class="comment">
+         <span class="markdown">Relates a move to its elemental type.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Move" title="https://w3id.org/doisr/pokemon#Move">Move</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#PokemonType" title="https://w3id.org/doisr/pokemon#PokemonType">Pokemon Type</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#isTypeOfMove" title="https://w3id.org/doisr/pokemon#isTypeOfMove">is type of move</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="ownsPokemon">
+      <h3>owns pokemon<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#ownsPokemon</p>
+      <div class="comment">
+         <span class="markdown">Relates a trainer to a Pokemon they own.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Trainer" title="https://w3id.org/doisr/pokemon#Trainer">Trainer</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Pokemon" title="https://w3id.org/doisr/pokemon#Pokemon">Pokemon</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#isOwnedByTrainer" title="https://w3id.org/doisr/pokemon#isOwnedByTrainer">is owned by trainer</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="dataproperties">
+   <h3 id="dataproperties-headline" class="list">Data Properties</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#abilityDescription"
+            title="https://w3id.org/doisr/pokemon#abilityDescription">ability description</a>
+      </li>
+      <li>
+         <a href="#accuracy" title="https://w3id.org/doisr/pokemon#accuracy">accuracy</a>
+      </li>
+      <li>
+         <a href="#attack" title="https://w3id.org/doisr/pokemon#attack">attack</a>
+      </li>
+      <li>
+         <a href="#baseStatTotal" title="https://w3id.org/doisr/pokemon#baseStatTotal">base stat total</a>
+      </li>
+      <li>
+         <a href="#classification" title="https://w3id.org/doisr/pokemon#classification">classification</a>
+      </li>
+      <li>
+         <a href="#defense" title="https://w3id.org/doisr/pokemon#defense">defense</a>
+      </li>
+      <li>
+         <a href="#evolutionCondition"
+            title="https://w3id.org/doisr/pokemon#evolutionCondition">evolution condition</a>
+      </li>
+      <li>
+         <a href="#evolutionLevel" title="https://w3id.org/doisr/pokemon#evolutionLevel">evolution level</a>
+      </li>
+      <li>
+         <a href="#generationNumber" title="https://w3id.org/doisr/pokemon#generationNumber">generation number</a>
+      </li>
+      <li>
+         <a href="#heightM" title="https://w3id.org/doisr/pokemon#heightM">height (m)</a>
+      </li>
+      <li>
+         <a href="#hp" title="https://w3id.org/doisr/pokemon#hp">hp</a>
+      </li>
+      <li>
+         <a href="#isLegendary" title="https://w3id.org/doisr/pokemon#isLegendary">is legendary</a>
+      </li>
+      <li>
+         <a href="#pokedexNumber" title="https://w3id.org/doisr/pokemon#pokedexNumber">pokedex number</a>
+      </li>
+      <li>
+         <a href="#power" title="https://w3id.org/doisr/pokemon#power">power</a>
+      </li>
+      <li>
+         <a href="#powerPoints" title="https://w3id.org/doisr/pokemon#powerPoints">power points</a>
+      </li>
+      <li>
+         <a href="#specialAttack" title="https://w3id.org/doisr/pokemon#specialAttack">special attack</a>
+      </li>
+      <li>
+         <a href="#specialDefense" title="https://w3id.org/doisr/pokemon#specialDefense">special defense</a>
+      </li>
+      <li>
+         <a href="#speed" title="https://w3id.org/doisr/pokemon#speed">speed</a>
+      </li>
+      <li>
+         <a href="#weightKg" title="https://w3id.org/doisr/pokemon#weightKg">weight (kg)</a>
+      </li>
+   </ul>
+   <div class="entity" id="abilityDescription">
+      <h3>ability description<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#abilityDescription</p>
+      <div class="comment">
+         <span class="markdown">Textual effect of an ability.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Ability" title="https://w3id.org/doisr/pokemon#Ability">Ability</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="accuracy">
+      <h3>accuracy<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#accuracy</p>
+      <div class="comment">
+         <span class="markdown">Accuracy of a move, from 0 to 100.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Move" title="https://w3id.org/doisr/pokemon#Move">Move</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#integer">integer</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="attack">
+      <h3>attack<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#attack</p>
+      <div class="comment">
+         <span class="markdown">Base Attack stat.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Pokemon" title="https://w3id.org/doisr/pokemon#Pokemon">Pokemon</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#integer">integer</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="baseStatTotal">
+      <h3>base stat total<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#baseStatTotal</p>
+      <div class="comment">
+         <span class="markdown">Sum of the six base stats.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Pokemon" title="https://w3id.org/doisr/pokemon#Pokemon">Pokemon</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#integer">integer</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="classification">
+      <h3>classification<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#classification</p>
+      <div class="comment">
+         <span class="markdown">Species classification (e.g. 'Seed Pokemon').</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Pokemon" title="https://w3id.org/doisr/pokemon#Pokemon">Pokemon</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="defense">
+      <h3>defense<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#defense</p>
+      <div class="comment">
+         <span class="markdown">Base Defense stat.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Pokemon" title="https://w3id.org/doisr/pokemon#Pokemon">Pokemon</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#integer">integer</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="evolutionCondition">
+      <h3>evolution condition<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#evolutionCondition</p>
+      <div class="comment">
+         <span class="markdown">Non-level condition that triggers the evolution (e.g. an evolution stone).</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Evolution" title="https://w3id.org/doisr/pokemon#Evolution">Evolution</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#string">string</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="evolutionLevel">
+      <h3>evolution level<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#evolutionLevel</p>
+      <div class="comment">
+         <span class="markdown">Level at which the evolution occurs (if level-based).</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Evolution" title="https://w3id.org/doisr/pokemon#Evolution">Evolution</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#integer">integer</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="generationNumber">
+      <h3>generation number<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#generationNumber</p>
+      <div class="comment">
+         <span class="markdown">Ordinal number of the generation.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Generation" title="https://w3id.org/doisr/pokemon#Generation">Generation</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#integer">integer</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="heightM">
+      <h3>height (m)<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#heightM</p>
+      <div class="comment">
+         <span class="markdown">Height of a Pokemon in metres.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Pokemon" title="https://w3id.org/doisr/pokemon#Pokemon">Pokemon</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#decimal">decimal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="hp">
+      <h3>hp<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#hp</p>
+      <div class="comment">
+         <span class="markdown">Base HP stat.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Pokemon" title="https://w3id.org/doisr/pokemon#Pokemon">Pokemon</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#integer">integer</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="isLegendary">
+      <h3>is legendary<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#isLegendary</p>
+      <div class="comment">
+         <span class="markdown">Whether the Pokemon is legendary.</span>
+      </div>
+      <div class="description">
+         <p>
+            <strong>has characteristics:</strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Pokemon" title="https://w3id.org/doisr/pokemon#Pokemon">Pokemon</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#boolean">boolean</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="pokedexNumber">
+      <h3>pokedex number<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#pokedexNumber</p>
+      <div class="comment">
+         <span class="markdown">The National Pokedex number of a Pokemon.</span>
+      </div>
+      <div class="description">
+         <p>
+            <strong>has characteristics:</strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Pokemon" title="https://w3id.org/doisr/pokemon#Pokemon">Pokemon</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#integer">integer</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="power">
+      <h3>power<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#power</p>
+      <div class="comment">
+         <span class="markdown">Base power of a move (absent for status moves).</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Move" title="https://w3id.org/doisr/pokemon#Move">Move</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#integer">integer</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="powerPoints">
+      <h3>power points<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#powerPoints</p>
+      <div class="comment">
+         <span class="markdown">Number of times a move can be used (PP).</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Move" title="https://w3id.org/doisr/pokemon#Move">Move</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#integer">integer</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="specialAttack">
+      <h3>special attack<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#specialAttack</p>
+      <div class="comment">
+         <span class="markdown">Base Special Attack stat.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Pokemon" title="https://w3id.org/doisr/pokemon#Pokemon">Pokemon</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#integer">integer</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="specialDefense">
+      <h3>special defense<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#specialDefense</p>
+      <div class="comment">
+         <span class="markdown">Base Special Defense stat.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Pokemon" title="https://w3id.org/doisr/pokemon#Pokemon">Pokemon</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#integer">integer</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="speed">
+      <h3>speed<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#speed</p>
+      <div class="comment">
+         <span class="markdown">Base Speed stat.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Pokemon" title="https://w3id.org/doisr/pokemon#Pokemon">Pokemon</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#integer">integer</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="weightKg">
+      <h3>weight (kg)<sup class="type-dp" title="data property">dp</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#weightKg</p>
+      <div class="comment">
+         <span class="markdown">Weight of a Pokemon in kilograms.</span>
+      </div>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Pokemon" title="https://w3id.org/doisr/pokemon#Pokemon">Pokemon</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <span class="dotted" title="http://www.w3.org/2001/XMLSchema#decimal">decimal</span>
+            </dd>
+         </dl>
+      </div>
+   </div>
+</div><div id="namedindividuals">
+   <h3 id="namedindividuals" class="list">Named Individuals</h3>
+   <ul class="hlist">
+      <li>
+         <a href="#Bug" title="https://w3id.org/doisr/pokemon#Bug">Bug Bug</a>
+      </li>
+      <li>
+         <a href="#Dark" title="https://w3id.org/doisr/pokemon#Dark">Dark Dark</a>
+      </li>
+      <li>
+         <a href="#Dragon" title="https://w3id.org/doisr/pokemon#Dragon">Dragon Dragon</a>
+      </li>
+      <li>
+         <a href="#Electric" title="https://w3id.org/doisr/pokemon#Electric">Electric Electric</a>
+      </li>
+      <li>
+         <a href="#Fairy" title="https://w3id.org/doisr/pokemon#Fairy">Fairy Fairy</a>
+      </li>
+      <li>
+         <a href="#Fighting" title="https://w3id.org/doisr/pokemon#Fighting">Fighting Fighting</a>
+      </li>
+      <li>
+         <a href="#Fire" title="https://w3id.org/doisr/pokemon#Fire">Fire Fire</a>
+      </li>
+      <li>
+         <a href="#Flying" title="https://w3id.org/doisr/pokemon#Flying">Flying Flying</a>
+      </li>
+      <li>
+         <a href="#Ghost" title="https://w3id.org/doisr/pokemon#Ghost">Ghost Ghost</a>
+      </li>
+      <li>
+         <a href="#Grass" title="https://w3id.org/doisr/pokemon#Grass">Grass Grass</a>
+      </li>
+      <li>
+         <a href="#Ground" title="https://w3id.org/doisr/pokemon#Ground">Ground Ground</a>
+      </li>
+      <li>
+         <a href="#Ice" title="https://w3id.org/doisr/pokemon#Ice">Ice Ice</a>
+      </li>
+      <li>
+         <a href="#MoveCategoryScheme"
+            title="https://w3id.org/doisr/pokemon#MoveCategoryScheme">Move Category Scheme Move categories</a>
+      </li>
+      <li>
+         <a href="#Normal" title="https://w3id.org/doisr/pokemon#Normal">Normal Normal</a>
+      </li>
+      <li>
+         <a href="#Physical" title="https://w3id.org/doisr/pokemon#Physical">Physical Physical</a>
+      </li>
+      <li>
+         <a href="#Poison" title="https://w3id.org/doisr/pokemon#Poison">Poison Poison</a>
+      </li>
+      <li>
+         <a href="#PokemonTypeScheme"
+            title="https://w3id.org/doisr/pokemon#PokemonTypeScheme">Pokemon Type Scheme Pokemon types</a>
+      </li>
+      <li>
+         <a href="#Psychic" title="https://w3id.org/doisr/pokemon#Psychic">Psychic Psychic</a>
+      </li>
+      <li>
+         <a href="#Rock" title="https://w3id.org/doisr/pokemon#Rock">Rock Rock</a>
+      </li>
+      <li>
+         <a href="#Special" title="https://w3id.org/doisr/pokemon#Special">Special Special</a>
+      </li>
+      <li>
+         <a href="#Status" title="https://w3id.org/doisr/pokemon#Status">Status Status</a>
+      </li>
+      <li>
+         <a href="#Steel" title="https://w3id.org/doisr/pokemon#Steel">Steel Steel</a>
+      </li>
+      <li>
+         <a href="#Water" title="https://w3id.org/doisr/pokemon#Water">Water Water</a>
+      </li>
+   </ul>
+   <div class="entity" id="Bug">
+      <h3>Bug<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <h3>Bug<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#Bug</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#PokemonType" title="https://w3id.org/doisr/pokemon#PokemonType">Pokemon Type</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Dark">
+      <h3>Dark<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <h3>Dark<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#Dark</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#PokemonType" title="https://w3id.org/doisr/pokemon#PokemonType">Pokemon Type</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Dragon">
+      <h3>Dragon<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <h3>Dragon<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#Dragon</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#PokemonType" title="https://w3id.org/doisr/pokemon#PokemonType">Pokemon Type</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Electric">
+      <h3>Electric<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <h3>Electric<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#Electric</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#PokemonType" title="https://w3id.org/doisr/pokemon#PokemonType">Pokemon Type</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Fairy">
+      <h3>Fairy<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <h3>Fairy<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#Fairy</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#PokemonType" title="https://w3id.org/doisr/pokemon#PokemonType">Pokemon Type</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Fighting">
+      <h3>Fighting<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <h3>Fighting<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#Fighting</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#PokemonType" title="https://w3id.org/doisr/pokemon#PokemonType">Pokemon Type</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Fire">
+      <h3>Fire<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <h3>Fire<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#Fire</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#PokemonType" title="https://w3id.org/doisr/pokemon#PokemonType">Pokemon Type</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Flying">
+      <h3>Flying<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <h3>Flying<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#Flying</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#PokemonType" title="https://w3id.org/doisr/pokemon#PokemonType">Pokemon Type</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Ghost">
+      <h3>Ghost<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <h3>Ghost<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#Ghost</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#PokemonType" title="https://w3id.org/doisr/pokemon#PokemonType">Pokemon Type</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Grass">
+      <h3>Grass<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <h3>Grass<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#Grass</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#PokemonType" title="https://w3id.org/doisr/pokemon#PokemonType">Pokemon Type</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Ground">
+      <h3>Ground<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <h3>Ground<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#Ground</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#PokemonType" title="https://w3id.org/doisr/pokemon#PokemonType">Pokemon Type</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Ice">
+      <h3>Ice<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <h3>Ice<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#Ice</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#PokemonType" title="https://w3id.org/doisr/pokemon#PokemonType">Pokemon Type</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="MoveCategoryScheme">
+      <h3>Move Category Scheme<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <h3>Move categories<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#MoveCategoryScheme</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted"
+                  title="http://www.w3.org/2004/02/skos/core#ConceptScheme">concept scheme</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Normal">
+      <h3>Normal<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <h3>Normal<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#Normal</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#PokemonType" title="https://w3id.org/doisr/pokemon#PokemonType">Pokemon Type</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Physical">
+      <h3>Physical<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <h3>Physical<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#Physical</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#MoveCategory" title="https://w3id.org/doisr/pokemon#MoveCategory">Move Category</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Poison">
+      <h3>Poison<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <h3>Poison<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#Poison</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#PokemonType" title="https://w3id.org/doisr/pokemon#PokemonType">Pokemon Type</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="PokemonTypeScheme">
+      <h3>Pokemon Type Scheme<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <h3>Pokemon types<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#PokemonTypeScheme</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <span class="dotted"
+                  title="http://www.w3.org/2004/02/skos/core#ConceptScheme">concept scheme</span>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Psychic">
+      <h3>Psychic<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <h3>Psychic<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#Psychic</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#PokemonType" title="https://w3id.org/doisr/pokemon#PokemonType">Pokemon Type</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Rock">
+      <h3>Rock<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <h3>Rock<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#Rock</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#PokemonType" title="https://w3id.org/doisr/pokemon#PokemonType">Pokemon Type</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Special">
+      <h3>Special<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <h3>Special<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#Special</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#MoveCategory" title="https://w3id.org/doisr/pokemon#MoveCategory">Move Category</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Status">
+      <h3>Status<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <h3>Status<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#Status</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#MoveCategory" title="https://w3id.org/doisr/pokemon#MoveCategory">Move Category</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Steel">
+      <h3>Steel<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <h3>Steel<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#Steel</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#PokemonType" title="https://w3id.org/doisr/pokemon#PokemonType">Pokemon Type</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="Water">
+      <h3>Water<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <h3>Water<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> https://w3id.org/doisr/pokemon#Water</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#PokemonType" title="https://w3id.org/doisr/pokemon#PokemonType">Pokemon Type</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+</div><div id="legend">
+<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<div   class="entity">
+<sup class="type-c" title="Classes">c</sup>: Classes <br/>
+<sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
+<sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br/>
+<sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals
+</div>
+</div>

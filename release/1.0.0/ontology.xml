@@ -1,0 +1,1141 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/doisr/pokemon#"
+     xml:base="https://w3id.org/doisr/pokemon"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:prov="http://www.w3.org/ns/prov#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="https://w3id.org/doisr/pokemon">
+        <owl:versionIRI rdf:resource="https://w3id.org/doisr/pokemon/1.0.0"/>
+        <terms:bibliographicCitation>Lopez Ferreiro, M. (2026). Pokemon Ontology. https://w3id.org/doisr/pokemon</terms:bibliographicCitation>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-09</terms:created>
+        <terms:creator>Miguel Lopez Ferreiro</terms:creator>
+        <terms:description xml:lang="en">An OWL ontology describing the Pokemon domain: creatures, their types and base stats, moves and move categories, abilities, evolutions, generations and regions.</terms:description>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-09</terms:issued>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-09</terms:modified>
+        <terms:publisher>Universidad Politecnica de Madrid</terms:publisher>
+        <terms:source rdf:resource="https://pokeapi.co/"/>
+        <terms:title xml:lang="en">Pokemon Ontology</terms:title>
+        <vann:preferredNamespacePrefix>pkmn</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri>https://w3id.org/doisr/pokemon#</vann:preferredNamespaceUri>
+        <rdfs:label xml:lang="en">Pokemon Ontology</rdfs:label>
+        <owl:versionInfo>1.0.0</owl:versionInfo>
+        <prov:wasDerivedFrom rdf:resource="https://pokeapi.co/"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/terms/bibliographicCitation -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/bibliographicCitation"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/issued -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/modified -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/modified"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/publisher -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/source -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/source"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#inScheme -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#inScheme"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#wasDerivedFrom -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/prov#wasDerivedFrom"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#appearsInGame -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/doisr/pokemon#appearsInGame">
+        <rdfs:domain rdf:resource="https://w3id.org/doisr/pokemon#Pokemon"/>
+        <rdfs:range rdf:resource="https://w3id.org/doisr/pokemon#Game"/>
+        <rdfs:comment xml:lang="en">Relates a Pokemon to a game in which it appears.</rdfs:comment>
+        <rdfs:label xml:lang="en">appears in game</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#evolutionResultsIn -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/doisr/pokemon#evolutionResultsIn">
+        <rdfs:domain rdf:resource="https://w3id.org/doisr/pokemon#Evolution"/>
+        <rdfs:range rdf:resource="https://w3id.org/doisr/pokemon#Pokemon"/>
+        <rdfs:comment xml:lang="en">Relates a reified evolution to the resulting Pokemon.</rdfs:comment>
+        <rdfs:label xml:lang="en">evolution results in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#evolvesFrom -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/doisr/pokemon#evolvesFrom">
+        <rdfs:domain rdf:resource="https://w3id.org/doisr/pokemon#Pokemon"/>
+        <rdfs:range rdf:resource="https://w3id.org/doisr/pokemon#Pokemon"/>
+        <rdfs:comment xml:lang="en">Relates a Pokemon to the Pokemon it evolves from (inverse of evolves into).</rdfs:comment>
+        <rdfs:label xml:lang="en">evolves from</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#evolvesInto -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/doisr/pokemon#evolvesInto">
+        <owl:inverseOf rdf:resource="https://w3id.org/doisr/pokemon#evolvesFrom"/>
+        <rdfs:domain rdf:resource="https://w3id.org/doisr/pokemon#Pokemon"/>
+        <rdfs:range rdf:resource="https://w3id.org/doisr/pokemon#Pokemon"/>
+        <rdfs:comment xml:lang="en">Relates a Pokemon to the Pokemon it evolves into.</rdfs:comment>
+        <rdfs:label xml:lang="en">evolves into</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#generationHasRegion -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/doisr/pokemon#generationHasRegion">
+        <rdfs:domain rdf:resource="https://w3id.org/doisr/pokemon#Generation"/>
+        <rdfs:range rdf:resource="https://w3id.org/doisr/pokemon#Region"/>
+        <rdfs:comment xml:lang="en">Relates a generation to its associated region.</rdfs:comment>
+        <rdfs:label xml:lang="en">generation has region</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#hasAbility -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/doisr/pokemon#hasAbility">
+        <rdfs:domain rdf:resource="https://w3id.org/doisr/pokemon#Pokemon"/>
+        <rdfs:range rdf:resource="https://w3id.org/doisr/pokemon#Ability"/>
+        <rdfs:comment xml:lang="en">Relates a Pokemon to one of its abilities.</rdfs:comment>
+        <rdfs:label xml:lang="en">has ability</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#hasEvolution -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/doisr/pokemon#hasEvolution">
+        <rdfs:domain rdf:resource="https://w3id.org/doisr/pokemon#Pokemon"/>
+        <rdfs:range rdf:resource="https://w3id.org/doisr/pokemon#Evolution"/>
+        <rdfs:comment xml:lang="en">Relates a Pokemon to a reified evolution describing its condition.</rdfs:comment>
+        <rdfs:label xml:lang="en">has evolution</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#hasPrimaryType -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/doisr/pokemon#hasPrimaryType">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/doisr/pokemon#hasType"/>
+        <rdfs:domain rdf:resource="https://w3id.org/doisr/pokemon#Pokemon"/>
+        <rdfs:range rdf:resource="https://w3id.org/doisr/pokemon#PokemonType"/>
+        <rdfs:comment xml:lang="en">Relates a Pokemon to its primary type.</rdfs:comment>
+        <rdfs:label xml:lang="en">has primary type</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#hasSecondaryType -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/doisr/pokemon#hasSecondaryType">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/doisr/pokemon#hasType"/>
+        <rdfs:domain rdf:resource="https://w3id.org/doisr/pokemon#Pokemon"/>
+        <rdfs:range rdf:resource="https://w3id.org/doisr/pokemon#PokemonType"/>
+        <rdfs:comment xml:lang="en">Relates a Pokemon to its optional secondary type.</rdfs:comment>
+        <rdfs:label xml:lang="en">has secondary type</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#hasType -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/doisr/pokemon#hasType">
+        <rdfs:domain rdf:resource="https://w3id.org/doisr/pokemon#Pokemon"/>
+        <rdfs:range rdf:resource="https://w3id.org/doisr/pokemon#PokemonType"/>
+        <rdfs:comment xml:lang="en">Relates a Pokemon to any of its types (primary or secondary).</rdfs:comment>
+        <rdfs:label xml:lang="en">has type</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#introducedInGeneration -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/doisr/pokemon#introducedInGeneration">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/doisr/pokemon#Move"/>
+                    <rdf:Description rdf:about="https://w3id.org/doisr/pokemon#Pokemon"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://w3id.org/doisr/pokemon#Generation"/>
+        <rdfs:comment xml:lang="en">Relates a Pokemon or a move to the generation in which it was introduced.</rdfs:comment>
+        <rdfs:label xml:lang="en">introduced in generation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#isAbilityOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/doisr/pokemon#isAbilityOf">
+        <owl:inverseOf rdf:resource="https://w3id.org/doisr/pokemon#hasAbility"/>
+        <rdfs:domain rdf:resource="https://w3id.org/doisr/pokemon#Ability"/>
+        <rdfs:range rdf:resource="https://w3id.org/doisr/pokemon#Pokemon"/>
+        <rdfs:comment xml:lang="en">Relates an ability to the Pokemon that has it (inverse of has ability).</rdfs:comment>
+        <rdfs:label xml:lang="en">is ability of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#isLearnedBy -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/doisr/pokemon#isLearnedBy">
+        <owl:inverseOf rdf:resource="https://w3id.org/doisr/pokemon#learnsMove"/>
+        <rdfs:domain rdf:resource="https://w3id.org/doisr/pokemon#Move"/>
+        <rdfs:range rdf:resource="https://w3id.org/doisr/pokemon#Pokemon"/>
+        <rdfs:comment xml:lang="en">Relates a move to the Pokemon that can learn it (inverse of learns move).</rdfs:comment>
+        <rdfs:label xml:lang="en">is learned by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#isOwnedByTrainer -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/doisr/pokemon#isOwnedByTrainer">
+        <owl:inverseOf rdf:resource="https://w3id.org/doisr/pokemon#ownsPokemon"/>
+        <rdfs:domain rdf:resource="https://w3id.org/doisr/pokemon#Pokemon"/>
+        <rdfs:range rdf:resource="https://w3id.org/doisr/pokemon#Trainer"/>
+        <rdfs:comment xml:lang="en">Relates a Pokemon to its trainer (inverse of owns pokemon).</rdfs:comment>
+        <rdfs:label xml:lang="en">is owned by trainer</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#isTypeOfMove -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/doisr/pokemon#isTypeOfMove">
+        <owl:inverseOf rdf:resource="https://w3id.org/doisr/pokemon#moveHasType"/>
+        <rdfs:domain rdf:resource="https://w3id.org/doisr/pokemon#PokemonType"/>
+        <rdfs:range rdf:resource="https://w3id.org/doisr/pokemon#Move"/>
+        <rdfs:comment xml:lang="en">Relates a type to the moves of that type (inverse of move has type).</rdfs:comment>
+        <rdfs:label xml:lang="en">is type of move</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#learnsMove -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/doisr/pokemon#learnsMove">
+        <rdfs:domain rdf:resource="https://w3id.org/doisr/pokemon#Pokemon"/>
+        <rdfs:range rdf:resource="https://w3id.org/doisr/pokemon#Move"/>
+        <rdfs:comment xml:lang="en">Relates a Pokemon to a move it can learn.</rdfs:comment>
+        <rdfs:label xml:lang="en">learns move</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#moveHasCategory -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/doisr/pokemon#moveHasCategory">
+        <rdfs:domain rdf:resource="https://w3id.org/doisr/pokemon#Move"/>
+        <rdfs:range rdf:resource="https://w3id.org/doisr/pokemon#MoveCategory"/>
+        <rdfs:comment xml:lang="en">Relates a move to its damage category.</rdfs:comment>
+        <rdfs:label xml:lang="en">move has category</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#moveHasType -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/doisr/pokemon#moveHasType">
+        <rdfs:domain rdf:resource="https://w3id.org/doisr/pokemon#Move"/>
+        <rdfs:range rdf:resource="https://w3id.org/doisr/pokemon#PokemonType"/>
+        <rdfs:comment xml:lang="en">Relates a move to its elemental type.</rdfs:comment>
+        <rdfs:label xml:lang="en">move has type</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#ownsPokemon -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/doisr/pokemon#ownsPokemon">
+        <rdfs:domain rdf:resource="https://w3id.org/doisr/pokemon#Trainer"/>
+        <rdfs:range rdf:resource="https://w3id.org/doisr/pokemon#Pokemon"/>
+        <rdfs:comment xml:lang="en">Relates a trainer to a Pokemon they own.</rdfs:comment>
+        <rdfs:label xml:lang="en">owns pokemon</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#abilityDescription -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/doisr/pokemon#abilityDescription">
+        <rdfs:domain rdf:resource="https://w3id.org/doisr/pokemon#Ability"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Textual effect of an ability.</rdfs:comment>
+        <rdfs:label xml:lang="en">ability description</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#accuracy -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/doisr/pokemon#accuracy">
+        <rdfs:domain rdf:resource="https://w3id.org/doisr/pokemon#Move"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment xml:lang="en">Accuracy of a move, from 0 to 100.</rdfs:comment>
+        <rdfs:label xml:lang="en">accuracy</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#attack -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/doisr/pokemon#attack">
+        <rdfs:domain rdf:resource="https://w3id.org/doisr/pokemon#Pokemon"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment xml:lang="en">Base Attack stat.</rdfs:comment>
+        <rdfs:label xml:lang="en">attack</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#baseStatTotal -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/doisr/pokemon#baseStatTotal">
+        <rdfs:domain rdf:resource="https://w3id.org/doisr/pokemon#Pokemon"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment xml:lang="en">Sum of the six base stats.</rdfs:comment>
+        <rdfs:label xml:lang="en">base stat total</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#classification -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/doisr/pokemon#classification">
+        <rdfs:domain rdf:resource="https://w3id.org/doisr/pokemon#Pokemon"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Species classification (e.g. &apos;Seed Pokemon&apos;).</rdfs:comment>
+        <rdfs:label xml:lang="en">classification</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#defense -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/doisr/pokemon#defense">
+        <rdfs:domain rdf:resource="https://w3id.org/doisr/pokemon#Pokemon"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment xml:lang="en">Base Defense stat.</rdfs:comment>
+        <rdfs:label xml:lang="en">defense</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#evolutionCondition -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/doisr/pokemon#evolutionCondition">
+        <rdfs:domain rdf:resource="https://w3id.org/doisr/pokemon#Evolution"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Non-level condition that triggers the evolution (e.g. an evolution stone).</rdfs:comment>
+        <rdfs:label xml:lang="en">evolution condition</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#evolutionLevel -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/doisr/pokemon#evolutionLevel">
+        <rdfs:domain rdf:resource="https://w3id.org/doisr/pokemon#Evolution"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment xml:lang="en">Level at which the evolution occurs (if level-based).</rdfs:comment>
+        <rdfs:label xml:lang="en">evolution level</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#generationNumber -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/doisr/pokemon#generationNumber">
+        <rdfs:domain rdf:resource="https://w3id.org/doisr/pokemon#Generation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment xml:lang="en">Ordinal number of the generation.</rdfs:comment>
+        <rdfs:label xml:lang="en">generation number</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#heightM -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/doisr/pokemon#heightM">
+        <rdfs:domain rdf:resource="https://w3id.org/doisr/pokemon#Pokemon"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:comment xml:lang="en">Height of a Pokemon in metres.</rdfs:comment>
+        <rdfs:label xml:lang="en">height (m)</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#hp -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/doisr/pokemon#hp">
+        <rdfs:domain rdf:resource="https://w3id.org/doisr/pokemon#Pokemon"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment xml:lang="en">Base HP stat.</rdfs:comment>
+        <rdfs:label xml:lang="en">hp</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#isLegendary -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/doisr/pokemon#isLegendary">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/doisr/pokemon#Pokemon"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:comment xml:lang="en">Whether the Pokemon is legendary.</rdfs:comment>
+        <rdfs:label xml:lang="en">is legendary</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#pokedexNumber -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/doisr/pokemon#pokedexNumber">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/doisr/pokemon#Pokemon"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment xml:lang="en">The National Pokedex number of a Pokemon.</rdfs:comment>
+        <rdfs:label xml:lang="en">pokedex number</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#power -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/doisr/pokemon#power">
+        <rdfs:domain rdf:resource="https://w3id.org/doisr/pokemon#Move"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment xml:lang="en">Base power of a move (absent for status moves).</rdfs:comment>
+        <rdfs:label xml:lang="en">power</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#powerPoints -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/doisr/pokemon#powerPoints">
+        <rdfs:domain rdf:resource="https://w3id.org/doisr/pokemon#Move"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment xml:lang="en">Number of times a move can be used (PP).</rdfs:comment>
+        <rdfs:label xml:lang="en">power points</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#specialAttack -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/doisr/pokemon#specialAttack">
+        <rdfs:domain rdf:resource="https://w3id.org/doisr/pokemon#Pokemon"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment xml:lang="en">Base Special Attack stat.</rdfs:comment>
+        <rdfs:label xml:lang="en">special attack</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#specialDefense -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/doisr/pokemon#specialDefense">
+        <rdfs:domain rdf:resource="https://w3id.org/doisr/pokemon#Pokemon"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment xml:lang="en">Base Special Defense stat.</rdfs:comment>
+        <rdfs:label xml:lang="en">special defense</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#speed -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/doisr/pokemon#speed">
+        <rdfs:domain rdf:resource="https://w3id.org/doisr/pokemon#Pokemon"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment xml:lang="en">Base Speed stat.</rdfs:comment>
+        <rdfs:label xml:lang="en">speed</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#weightKg -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/doisr/pokemon#weightKg">
+        <rdfs:domain rdf:resource="https://w3id.org/doisr/pokemon#Pokemon"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:comment xml:lang="en">Weight of a Pokemon in kilograms.</rdfs:comment>
+        <rdfs:label xml:lang="en">weight (kg)</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Concept -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#ConceptScheme -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#Ability -->
+
+
+    <owl:Class rdf:about="https://w3id.org/doisr/pokemon#Ability">
+        <rdfs:comment xml:lang="en">A passive ability that a Pokemon may have.</rdfs:comment>
+        <rdfs:label xml:lang="en">Ability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#Evolution -->
+
+
+    <owl:Class rdf:about="https://w3id.org/doisr/pokemon#Evolution">
+        <rdfs:comment xml:lang="en">Reified n-ary relation describing an evolution of a Pokemon, including its condition (e.g. level).</rdfs:comment>
+        <rdfs:label xml:lang="en">Evolution</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#Game -->
+
+
+    <owl:Class rdf:about="https://w3id.org/doisr/pokemon#Game">
+        <rdfs:comment xml:lang="en">A video game of the Pokemon franchise in which a Pokemon appears.</rdfs:comment>
+        <rdfs:label xml:lang="en">Game</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#Generation -->
+
+
+    <owl:Class rdf:about="https://w3id.org/doisr/pokemon#Generation">
+        <rdfs:comment xml:lang="en">A generation of the Pokemon franchise in which species and moves are introduced.</rdfs:comment>
+        <rdfs:label xml:lang="en">Generation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#LegendaryPokemon -->
+
+
+    <owl:Class rdf:about="https://w3id.org/doisr/pokemon#LegendaryPokemon">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/doisr/pokemon#Pokemon"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/doisr/pokemon#isLegendary"/>
+                        <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasValue>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/doisr/pokemon#Pokemon"/>
+        <rdfs:comment xml:lang="en">A Pokemon flagged as legendary.</rdfs:comment>
+        <rdfs:label xml:lang="en">Legendary Pokemon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#Move -->
+
+
+    <owl:Class rdf:about="https://w3id.org/doisr/pokemon#Move">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/doisr/pokemon#moveHasCategory"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/doisr/pokemon#MoveCategory"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/doisr/pokemon#moveHasType"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/doisr/pokemon#PokemonType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A move (attack or action) that a Pokemon can learn and use.</rdfs:comment>
+        <rdfs:label xml:lang="en">Move</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#MoveCategory -->
+
+
+    <owl:Class rdf:about="https://w3id.org/doisr/pokemon#MoveCategory">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:comment xml:lang="en">The damage category of a move: Physical, Special or Status.</rdfs:comment>
+        <rdfs:label xml:lang="en">Move Category</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#Pokemon -->
+
+
+    <owl:Class rdf:about="https://w3id.org/doisr/pokemon#Pokemon">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/doisr/pokemon#hasPrimaryType"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/doisr/pokemon#PokemonType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/doisr/pokemon#hasSecondaryType"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="https://w3id.org/doisr/pokemon#PokemonType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">A Pokemon species characterised by its types, base stats, abilities and evolutions.</rdfs:comment>
+        <rdfs:label xml:lang="en">Pokemon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#PokemonType -->
+
+
+    <owl:Class rdf:about="https://w3id.org/doisr/pokemon#PokemonType">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:comment xml:lang="en">An elemental type of a Pokemon or a move (e.g. Fire, Water).</rdfs:comment>
+        <rdfs:label xml:lang="en">Pokemon Type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#Region -->
+
+
+    <owl:Class rdf:about="https://w3id.org/doisr/pokemon#Region">
+        <rdfs:comment xml:lang="en">A geographic region of the Pokemon world associated with a generation.</rdfs:comment>
+        <rdfs:label xml:lang="en">Region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#Trainer -->
+
+
+    <owl:Class rdf:about="https://w3id.org/doisr/pokemon#Trainer">
+        <rdfs:comment xml:lang="en">A person who catches and owns Pokemon.</rdfs:comment>
+        <rdfs:label xml:lang="en">Trainer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#Bug -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/doisr/pokemon#Bug">
+        <rdf:type rdf:resource="https://w3id.org/doisr/pokemon#PokemonType"/>
+        <rdfs:label xml:lang="en">Bug</rdfs:label>
+        <skos:inScheme rdf:resource="https://w3id.org/doisr/pokemon#PokemonTypeScheme"/>
+        <skos:prefLabel xml:lang="en">Bug</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#Dark -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/doisr/pokemon#Dark">
+        <rdf:type rdf:resource="https://w3id.org/doisr/pokemon#PokemonType"/>
+        <rdfs:label xml:lang="en">Dark</rdfs:label>
+        <skos:inScheme rdf:resource="https://w3id.org/doisr/pokemon#PokemonTypeScheme"/>
+        <skos:prefLabel xml:lang="en">Dark</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#Dragon -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/doisr/pokemon#Dragon">
+        <rdf:type rdf:resource="https://w3id.org/doisr/pokemon#PokemonType"/>
+        <rdfs:label xml:lang="en">Dragon</rdfs:label>
+        <skos:inScheme rdf:resource="https://w3id.org/doisr/pokemon#PokemonTypeScheme"/>
+        <skos:prefLabel xml:lang="en">Dragon</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#Electric -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/doisr/pokemon#Electric">
+        <rdf:type rdf:resource="https://w3id.org/doisr/pokemon#PokemonType"/>
+        <rdfs:label xml:lang="en">Electric</rdfs:label>
+        <skos:inScheme rdf:resource="https://w3id.org/doisr/pokemon#PokemonTypeScheme"/>
+        <skos:prefLabel xml:lang="en">Electric</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#Fairy -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/doisr/pokemon#Fairy">
+        <rdf:type rdf:resource="https://w3id.org/doisr/pokemon#PokemonType"/>
+        <rdfs:label xml:lang="en">Fairy</rdfs:label>
+        <skos:inScheme rdf:resource="https://w3id.org/doisr/pokemon#PokemonTypeScheme"/>
+        <skos:prefLabel xml:lang="en">Fairy</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#Fighting -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/doisr/pokemon#Fighting">
+        <rdf:type rdf:resource="https://w3id.org/doisr/pokemon#PokemonType"/>
+        <rdfs:label xml:lang="en">Fighting</rdfs:label>
+        <skos:inScheme rdf:resource="https://w3id.org/doisr/pokemon#PokemonTypeScheme"/>
+        <skos:prefLabel xml:lang="en">Fighting</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#Fire -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/doisr/pokemon#Fire">
+        <rdf:type rdf:resource="https://w3id.org/doisr/pokemon#PokemonType"/>
+        <rdfs:label xml:lang="en">Fire</rdfs:label>
+        <skos:inScheme rdf:resource="https://w3id.org/doisr/pokemon#PokemonTypeScheme"/>
+        <skos:prefLabel xml:lang="en">Fire</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#Flying -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/doisr/pokemon#Flying">
+        <rdf:type rdf:resource="https://w3id.org/doisr/pokemon#PokemonType"/>
+        <rdfs:label xml:lang="en">Flying</rdfs:label>
+        <skos:inScheme rdf:resource="https://w3id.org/doisr/pokemon#PokemonTypeScheme"/>
+        <skos:prefLabel xml:lang="en">Flying</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#Ghost -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/doisr/pokemon#Ghost">
+        <rdf:type rdf:resource="https://w3id.org/doisr/pokemon#PokemonType"/>
+        <rdfs:label xml:lang="en">Ghost</rdfs:label>
+        <skos:inScheme rdf:resource="https://w3id.org/doisr/pokemon#PokemonTypeScheme"/>
+        <skos:prefLabel xml:lang="en">Ghost</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#Grass -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/doisr/pokemon#Grass">
+        <rdf:type rdf:resource="https://w3id.org/doisr/pokemon#PokemonType"/>
+        <rdfs:label xml:lang="en">Grass</rdfs:label>
+        <skos:inScheme rdf:resource="https://w3id.org/doisr/pokemon#PokemonTypeScheme"/>
+        <skos:prefLabel xml:lang="en">Grass</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#Ground -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/doisr/pokemon#Ground">
+        <rdf:type rdf:resource="https://w3id.org/doisr/pokemon#PokemonType"/>
+        <rdfs:label xml:lang="en">Ground</rdfs:label>
+        <skos:inScheme rdf:resource="https://w3id.org/doisr/pokemon#PokemonTypeScheme"/>
+        <skos:prefLabel xml:lang="en">Ground</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#Ice -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/doisr/pokemon#Ice">
+        <rdf:type rdf:resource="https://w3id.org/doisr/pokemon#PokemonType"/>
+        <rdfs:label xml:lang="en">Ice</rdfs:label>
+        <skos:inScheme rdf:resource="https://w3id.org/doisr/pokemon#PokemonTypeScheme"/>
+        <skos:prefLabel xml:lang="en">Ice</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#MoveCategoryScheme -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/doisr/pokemon#MoveCategoryScheme">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <rdfs:label xml:lang="en">Move Category Scheme</rdfs:label>
+        <skos:prefLabel xml:lang="en">Move categories</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#Normal -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/doisr/pokemon#Normal">
+        <rdf:type rdf:resource="https://w3id.org/doisr/pokemon#PokemonType"/>
+        <rdfs:label xml:lang="en">Normal</rdfs:label>
+        <skos:inScheme rdf:resource="https://w3id.org/doisr/pokemon#PokemonTypeScheme"/>
+        <skos:prefLabel xml:lang="en">Normal</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#Physical -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/doisr/pokemon#Physical">
+        <rdf:type rdf:resource="https://w3id.org/doisr/pokemon#MoveCategory"/>
+        <rdfs:label xml:lang="en">Physical</rdfs:label>
+        <skos:inScheme rdf:resource="https://w3id.org/doisr/pokemon#MoveCategoryScheme"/>
+        <skos:prefLabel xml:lang="en">Physical</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#Poison -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/doisr/pokemon#Poison">
+        <rdf:type rdf:resource="https://w3id.org/doisr/pokemon#PokemonType"/>
+        <rdfs:label xml:lang="en">Poison</rdfs:label>
+        <skos:inScheme rdf:resource="https://w3id.org/doisr/pokemon#PokemonTypeScheme"/>
+        <skos:prefLabel xml:lang="en">Poison</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#PokemonTypeScheme -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/doisr/pokemon#PokemonTypeScheme">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+        <rdfs:label xml:lang="en">Pokemon Type Scheme</rdfs:label>
+        <skos:prefLabel xml:lang="en">Pokemon types</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#Psychic -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/doisr/pokemon#Psychic">
+        <rdf:type rdf:resource="https://w3id.org/doisr/pokemon#PokemonType"/>
+        <rdfs:label xml:lang="en">Psychic</rdfs:label>
+        <skos:inScheme rdf:resource="https://w3id.org/doisr/pokemon#PokemonTypeScheme"/>
+        <skos:prefLabel xml:lang="en">Psychic</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#Rock -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/doisr/pokemon#Rock">
+        <rdf:type rdf:resource="https://w3id.org/doisr/pokemon#PokemonType"/>
+        <rdfs:label xml:lang="en">Rock</rdfs:label>
+        <skos:inScheme rdf:resource="https://w3id.org/doisr/pokemon#PokemonTypeScheme"/>
+        <skos:prefLabel xml:lang="en">Rock</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#Special -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/doisr/pokemon#Special">
+        <rdf:type rdf:resource="https://w3id.org/doisr/pokemon#MoveCategory"/>
+        <rdfs:label xml:lang="en">Special</rdfs:label>
+        <skos:inScheme rdf:resource="https://w3id.org/doisr/pokemon#MoveCategoryScheme"/>
+        <skos:prefLabel xml:lang="en">Special</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#Status -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/doisr/pokemon#Status">
+        <rdf:type rdf:resource="https://w3id.org/doisr/pokemon#MoveCategory"/>
+        <rdfs:label xml:lang="en">Status</rdfs:label>
+        <skos:inScheme rdf:resource="https://w3id.org/doisr/pokemon#MoveCategoryScheme"/>
+        <skos:prefLabel xml:lang="en">Status</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#Steel -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/doisr/pokemon#Steel">
+        <rdf:type rdf:resource="https://w3id.org/doisr/pokemon#PokemonType"/>
+        <rdfs:label xml:lang="en">Steel</rdfs:label>
+        <skos:inScheme rdf:resource="https://w3id.org/doisr/pokemon#PokemonTypeScheme"/>
+        <skos:prefLabel xml:lang="en">Steel</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/doisr/pokemon#Water -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/doisr/pokemon#Water">
+        <rdf:type rdf:resource="https://w3id.org/doisr/pokemon#PokemonType"/>
+        <rdfs:label xml:lang="en">Water</rdfs:label>
+        <skos:inScheme rdf:resource="https://w3id.org/doisr/pokemon#PokemonTypeScheme"/>
+        <skos:prefLabel xml:lang="en">Water</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/doisr/pokemon#Ability"/>
+            <rdf:Description rdf:about="https://w3id.org/doisr/pokemon#Evolution"/>
+            <rdf:Description rdf:about="https://w3id.org/doisr/pokemon#Game"/>
+            <rdf:Description rdf:about="https://w3id.org/doisr/pokemon#Generation"/>
+            <rdf:Description rdf:about="https://w3id.org/doisr/pokemon#Move"/>
+            <rdf:Description rdf:about="https://w3id.org/doisr/pokemon#MoveCategory"/>
+            <rdf:Description rdf:about="https://w3id.org/doisr/pokemon#Pokemon"/>
+            <rdf:Description rdf:about="https://w3id.org/doisr/pokemon#PokemonType"/>
+            <rdf:Description rdf:about="https://w3id.org/doisr/pokemon#Region"/>
+            <rdf:Description rdf:about="https://w3id.org/doisr/pokemon#Trainer"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.11) https://github.com/owlcs/owlapi/ -->
+
+
